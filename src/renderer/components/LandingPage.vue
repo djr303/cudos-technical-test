@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h5>Number of results: <span>{{ rows }}</span></h5>
     <div>
       <b-table striped hover :items="pagedResults"></b-table>
     </div>
@@ -37,6 +38,12 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+h5 {
+  font-size: 1em;
+  span {
+    font-style: italic;
+  }
+}
 .pagination {
   flex-wrap: wrap;
   text-align: center;

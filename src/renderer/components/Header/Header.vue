@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1>Cypto markets</h1>
+    <h1><img src="~@/assets/logo.png" />Cypto markets</h1>
   </header>
 </template>
 
@@ -11,4 +11,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+h1 {
+  padding-top: 10px;
+  img {
+    margin-right: 10px;
+  }
+}
 </style>
